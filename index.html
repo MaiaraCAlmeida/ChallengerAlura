@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Decodificador de Texto</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+  <body>
+
+    <header>
+      <h1 id="titulo">Codificador de Texto</h1>
+      <nav></nav>
+    </header>
+
+    <main>
+      <section class="alinhamento">
+        <div class="alinhamento-bloco-texto">
+          <p id="alerta">Somente letras minúsculas não acentuadas.</p>
+          <textarea id="textoEntrada" placeholder="Digite Aqui.." oninput="verificarTexto()"></textarea>
+          <div>
+            <button class="botao" id="botaoCodificar" onclick="codificado()">Codificar</button>
+            <button class="botao" id="botaoDecodificar" onclick="decodificado()">Decodificar</button>
+          </div>
+        </div>
+
+       
+
+       <div class="alinhamento-bloco-texto">
+
+        <textarea id="textoResultado" readonly></textarea>
+        <div >
+          <button class="botao" id="botaoCopiar" onclick="copiarTexto()">Copiar</button>
+        </div>
+       </div>
+       
+
+      </section>
+    </main>
+    <script src="script.js"></script>
+
+    <footer>
+        <p>&copy; 2024 Desenvolvido por <span>Maiara Almeida.</span></p>
+    </footer>
+
+  </body>
+</html>
