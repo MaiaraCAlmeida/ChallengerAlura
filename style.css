@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#titulo{
+    text-align: center;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+}
+
+.alinhamento-bloco-texto{
+    position: relative;
+}
+#alerta{
+    display: none;
+    position: absolute;
+    top: -30px;
+    left: 0;
+    color: red;
+    margin-bottom: 10px;
+}
+
+textarea{
+    margin-top: 20px;
+    height: 200px;
+    width: 250px;
+}
+.botao {
+    background-color: #007A78; /* Cor de fundo */
+    border: none; /* Remova a borda */
+    color: #FFC745; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
+    text-decoration: none; /* Remova a decoração do texto */
+    display: inline-block; /* Exibir como bloco */
+    font-size: 16px; /* Tamanho da fonte */
+    margin: 4px 2px; /* Margem */
+    cursor: pointer; /* Cursor do mouse */
+    border-radius: 8px; /* Borda arredondada */
+}
+
+/* Estilos de hover para o botão */
+.botao:hover {
+    background-color: #023104ad; /* Mudar a cor de fundo ao passar o mouse */
+}
